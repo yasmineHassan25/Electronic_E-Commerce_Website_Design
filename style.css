@@ -1,0 +1,56 @@
+/*** Buttons ***/
+button.Btncolor{
+    color: #EDC6C6 !important;
+    border-color: #EDC6C6 ;
+}
+button.BtnFill{
+    background-color: #EDC6C6 !important;
+    border-color: #EDC6C6 ;
+}
+button.Btncolor:hover{
+    background-color: #EDC6C6 !important;
+    color:white !important;
+    border-color: #EDC6C6 ;
+}
+button.BtnFill:hover{
+    background-color: #deb7b7 !important;
+    border-color: #EDC6C6 ;
+}
+
+/*  filter section  */
+div.item{
+    box-shadow: 0.3em 0.3em 1em #ddd;
+    border-radius: 10%;
+}
+div.item:hover{
+    box-shadow: 0.4em 0.4em 1em #008871;
+    transition: box-shadow 2s;
+}
+img.resize{
+    width: 100%;
+    height: 35vh;
+}
+
+/* paragraph in home */
+div#paragraph{
+    text-align: center !important;
+}
+
+/*** FAQ ***/
+.form{
+    background-color: #f3d3df;
+    /* background-image: linear-gradient(#EDC6C6 45%, #8fd2c7); */
+
+    padding: 2em !important;
+}
+
+/***  footer (Social Media icons) ***/
+i.icon{
+    font-size:1.5rem;
+}
+i.icon:hover{
+    color: #f2adad;
+}
+a:hover{
+    color:#000 !important;
+}
